@@ -90,7 +90,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-   
+
 /* Primera prueba a ver como queda en forma de acostada de rectangulo 
 .card-paises {
     width: 450px;
@@ -179,13 +179,13 @@ main {
     height: 80%;
     background: #48B5B5;
     margin: auto;
-    border-radius:25px; 
+    border-radius: 25px;
     border: 5px solid black;
 }
 
 .img-bandera {
     width: 100%;
-    height: 50%;  
+    height: 50%;
     border-radius: 20px;
 }
 
@@ -202,7 +202,7 @@ main {
     border-bottom: 2px solid black;
     margin: 10px;
     padding: 5px;
-    display: flex; 
+    display: flex;
     justify-content: flex-start;
     font-size: 1.5em;
 }
@@ -212,7 +212,7 @@ main {
     border-bottom: 2px solid black;
     margin: 10px;
     padding: 5px;
-    display: flex; 
+    display: flex;
     justify-content: flex-start;
     font-size: 1em;
 }
@@ -222,7 +222,7 @@ main {
     border-bottom: 2px solid black;
     margin: 10px;
     padding: 5px;
-    display: flex; 
+    display: flex;
     justify-content: flex-start;
     font-size: 1em;
 }
@@ -231,7 +231,7 @@ main {
 .boton-conocer-mas {
     display: inline-block;
     width: 40%;
-    background: rgb(0, 247, 255) ;
+    background: rgb(0, 247, 255);
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -239,7 +239,7 @@ main {
     color: white;
     position: relative;
     left: 45%;
-    
+
 }
 
 /* .boton-conocer-mas {
@@ -286,7 +286,7 @@ main {
     
 }
 
-/* --- CLASES DE UTILIDAD Y COMPONENTES EN ESPAÑOL --- */
+/* --- CLASES DE UTILIDAD--- */
 
 
 body.fondo-principal {
