@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+</head>
+<body style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #004F4F;
+    font-family: sans-serif;
+">
+
+    <a href="#" style="
+        position: fixed;
+        top: 16px;
+        left: 16px;
+        background-color: #1A8282;
+        color: #8BE8E8;
+        text-decoration: none;
+        border: none;
+        border-radius: 6px;
+        padding: 8px 16px;
+        font-size: 14px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    ">&#8592; Inicio</a>
+
+    <div style="
+        text-align: center;
+        margin-bottom: 16px;">
+        <h1 style="text-transform: uppercase; color: #48B5B5; margin-bottom: 4px;">Crear cuenta</h1>
+        <p style="font-size: 13px; color: #8BE8E8;">Completá tus datos para registrarte</p>
+    </div>
+
+    <div style="
+        border: 1px solid #48B5B5;
+        padding: 40px 50px;
+        border-radius: 15px;
+        background-color: #1A8282;
+    ">
+
+        <form action="#" method="POST">
+
+            <label for="username" style="display: block; color: #8BE8E8; margin-bottom: 4px;">Nombre de usuario:</label>
+            <input type="text" id="username" name="username" required><br><br>
+
+            <label for="email" style="display: block; color: #8BE8E8; margin-bottom: 4px;">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password" style="display: block; color: #8BE8E8; margin-bottom: 4px;">Contraseña:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <div style="
+                text-align: center;">
+                <button type="submit" style="background-color: #004F4F; color: white; border: none; border-radius: 4px; padding: 8px 24px; cursor: pointer;">Registrarse</button>
+            </div>
+
+        </form>
+
+        <p style="text-align: center;
+            margin-top: 14px;
+            font-size: 13px;">
+            <span style="color: #004F4F;">¿Ya tenés cuenta?</span>
+            <a href="iniciarSesion.html" style="color: #8BE8E8; text-decoration: none;">Iniciá sesión</a>
+        </p>
+
+    </div>
+
+</body>
+</html>
