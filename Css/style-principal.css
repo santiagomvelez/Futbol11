@@ -81,7 +81,7 @@ main {
 }
    
 
-/* Prueba 1 forma de acostada de rectangulo 
+/* Prueba 1 forma de acostada de rectangulo */
 .card-paises {
     width: 450px;
     height: 300px;
@@ -157,11 +157,11 @@ main {
     position: relative;
     left: 58%;
     bottom: 60%;     
-} */
+} 
 
 
 
-/* Forma 2 tipo card 
+/* Forma 2 tipo card
 
 .card-paises {
     width: 60%;
@@ -239,11 +239,11 @@ main {
     margin-top: auto;
     margin-bottom: 20px;
     margin-right: 20px;    
-}  */
+}   */
 
 
 
-/* Forma 3 Solo bandera com hover que tapa la bandera y muestra contenido */
+/* Forma 3 Solo bandera com hover que tapa la bandera y muestra contenido 
 .card-paises {
     width: 450px;
     height: 300px;
@@ -327,7 +327,7 @@ main {
     text-decoration: none;
     text-align: center;      
 }
-
+*/
 
 
 
