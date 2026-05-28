@@ -20,6 +20,23 @@ body {
 
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+
+h1,
+h2,
+h3,
+.titulo,
+.boton,
+nav a {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.5px;
+
+}
+
 .header {
     width: 100%;
     height: 90px;
@@ -33,7 +50,7 @@ body {
 
 .logo-contenedor {
     width: 10%;
-    height: 100%;   
+    height: 100%;
 }
 
 
@@ -86,7 +103,7 @@ main {
     padding: 50px;
     padding-bottom: 0;
 }
-   
+
 .card-paises {
     width: 450px;
     height: 300px;
@@ -103,11 +120,11 @@ main {
 
 .img-bandera {
     width: 100%;
-    height: 80%;  
+    height: 80%;
     object-fit: contain;
     margin-top: 20px;
-    
-    
+
+
 }
 
 .card-contenido-paises {
@@ -127,7 +144,7 @@ main {
 }
 
 .card-paises:hover .card-contenido-paises {
-  transform: translateY(0); 
+    transform: translateY(0);
 }
 
 
@@ -150,8 +167,8 @@ main {
     width: 50%;
     text-align: center;
     margin: 10px;
-    border-bottom: 2px solid white ;
- }
+    border-bottom: 2px solid white;
+}
 
 .card-info-paises-2 {
     width: 50%;
@@ -165,8 +182,8 @@ main {
     display: inline-block;
     width: 8em;
     height: 2em;
-   background-color: var(--color-esmeralda);
-   color: var(--color-blanco);
+    background-color: var(--color-esmeralda);
+    color: var(--color-blanco);
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -178,15 +195,15 @@ main {
     width: 100vw;
     height: 50vh;
     background: linear-gradient(to bottom, var(--color-principal), var(--color-esmeralda));
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 
 .contenedor-logo {
     width: 15%;
     height: 100%;
-    
-    
+
+
 }
 
 
@@ -195,4 +212,3 @@ main {
     height: 100%;
     object-fit: contain;
 }
-
