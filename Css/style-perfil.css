@@ -1,7 +1,7 @@
 * {
-
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -105,6 +105,13 @@ nav a {
     color: var(--color-oscuro);
 }
 
+
+
+
+
+
+
+
 body.fondo-principal {
     background-color: var(--color-principal);
 }
@@ -176,6 +183,8 @@ body.fondo-principal {
     margin: 0 auto;
     width: 100%;
     box-sizing: border-box;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
 }
 
 /* Flexbox */
@@ -253,6 +262,7 @@ body.fondo-principal {
 .relleno-15 {
     padding: 15px;
     box-sizing: border-box;
+    margin-top: 1rem;
 }
 
 .relleno-20 {
@@ -444,4 +454,91 @@ footer {
     margin-top: 2rem;
     color: white;
     font-size: 0.8em;
+}
+
+
+
+@media (max-width: 64em) {
+    
+     .logo-contenedor {
+        width: 15%;
+    }
+
+    .cotenedor-footer {
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+    }
+
+    .contenedor-logo {
+        grid-column: 1 / span 2;
+        gap: 2em;
+    }
+
+
+
+}
+
+@media  (max-width: 40em) {
+
+    .logo-contenedor {
+        width: 20%;
+    }
+
+    .btn-hamburguesa {
+        display: block;
+        padding: 0 1em;
+    }
+
+    .nav-header {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        background: var(--color-azulado);
+        padding: 1em;
+        z-index: 99;
+        height: auto;
+    }
+
+    .menu-toggle:checked~.nav-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-header ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1em;
+        height: auto;
+        padding: 0;
+    }
+    
+
+   .cotenedor-footer {
+        grid-template-columns: 1fr;
+        gap: 1.5em;
+        margin: 1rem;
+    }
+
+    .contenedor-logo {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .logo-footer {
+        width: 50%;
+    }
+
+    footer {
+        font-size: 1em;
+        padding: 5% 5%;
+    }
+
+    .footer-copy {
+        font-size: 0.7em;
+        margin-top: 1.5em;
+    }
+
 }
