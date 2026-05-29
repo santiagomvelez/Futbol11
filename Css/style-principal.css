@@ -311,10 +311,7 @@ footer {
         padding: 1em;
     }
 
-    .nav-header .abierto {
-        display: flex;
-        flex-direction: column;
-    }
+    
 
     .nav-header ul {
         flex-direction: column;
@@ -322,6 +319,10 @@ footer {
     }
 
     
+     .menu-toggle:checked ~ .nav-header {
+        display: flex;
+        flex-direction: column;
+    }
 
 
 }
@@ -350,15 +351,17 @@ footer {
         padding: 1em;
     }
 
-    .nav-header .abierto {
-        display: flex;
-        flex-direction: column;
-    }
+ 
 
     .nav-header ul {
         flex-direction: column;
         gap: 1em;
     }
 
+
+    .menu-toggle:checked ~ .nav-header {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
