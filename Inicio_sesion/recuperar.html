@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fut Core - Iniciar Sesión</title>
+    <title>Fut Core - Recuperar Contraseña</title>
     <link rel="stylesheet" href="../Css/style-perfil.css">
     <link rel="stylesheet" href="../Css/style-login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,41 +19,39 @@
     style="min-height: 100vh;">
 
     <!-- Botón Volver -->
-    <a href="../index.html" class="enlace-volver">&#8592; Inicio</a>
+    <a href="iniciarSesion.html" class="enlace-volver">&#8592; Iniciar Sesión</a>
 
     <main class="contenedor relleno-20 caja-flexible justificar-centro alinear-centro">
 
         <div class="fondo-oscuro radio-grande sombra borde-sup-azulado contenedor-formulario">
 
             <div class="texto-centrado margen-abajo-20 relleno-abajo-10 borde-inf-azulado">
-                <h1 class="texto-muy-grande texto-esmeralda">Iniciar Sesión</h1>
-                <p class="texto-secundario texto-chico">Ingresá tus datos para continuar</p>
+                <h1 class="texto-muy-grande texto-esmeralda">Recuperar Contraseña</h1>
+                <p class="texto-secundario texto-chico">Ingresá tu correo electrónico y te enviaremos un enlace para
+                    restablecer tu contraseña</p>
             </div>
 
             <form action="#" method="POST" class="caja-flexible flex-columna">
 
                 <div>
-                    <label for="identifier" class="label-formulario">Mail o Nombre de usuario:</label>
-                    <input type="text" id="identifier" name="identifier" class="input-formulario" required>
+                    <label for="email" class="label-formulario">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" class="input-formulario"
+                        placeholder="ejemplo@correo.com" required>
                 </div>
 
-                <div>
-                    <label for="password" class="label-formulario">Contraseña:</label>
-                    <input type="password" id="password" name="password" class="input-formulario" required>
-                </div>
-
-                <button type="submit" class="boton boton-esmeralda ancho-100 margen-arriba-10">Ingresar</button>
+                <button type="submit" class="boton boton-esmeralda ancho-100 margen-arriba-10">Enviar enlace de
+                    recuperación</button>
 
             </form>
 
             <p class="texto-centrado texto-chico margen-arriba-10">
-                <span class="texto-secundario">¿No tenés cuenta?</span>
-                <a href="../Crear_cuenta/crearCuenta.html" class="texto-esmeralda">Registrate</a>
+                <span class="texto-secundario">¿Recordaste tu contraseña?</span>
+                <a href="iniciarSesion.html" class="texto-esmeralda">Iniciá sesión</a>
             </p>
 
             <p class="texto-centrado texto-chico margen-arriba-10">
-                <span class="texto-secundario">¿Olvidaste tu contraseña?</span>
-                <a href="recuperar.html" class="texto-esmeralda">Recuperala</a>
+                <span class="texto-secundario">¿No tenés cuenta?</span>
+                <a href="../Crear_cuenta/crearCuenta.html" class="texto-esmeralda">Registrate</a>
             </p>
 
         </div>
